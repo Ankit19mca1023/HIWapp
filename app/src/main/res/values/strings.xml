@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HiW app</string>
+    <string name="check_up">Check \nUp</string>
+    <string name="jokes">Wanna laugh ??\ntab below</string>
+    <string name="log_in">Log in</string>
+    <string name="password">password</string>
+    <string name="health_is_wealth">HEALTH IS WEALTH</string>
+    <string name="sign_up">Sign up</string>
+    <string name="if_you_don_t_have_account_then_tab_on_sign_up">If you Don\'t have account then tab on Sign up</string>
+    <string name="forget_password">Forget password</string>
+    <string name="condition_and_what_to_do">Condition and What to do</string>
+    <string name="you_are_over_under_weight_or_have_good_weight">You are over/under weight or have good weight</string>
+    <string name="log_out">Log Out</string>
+    <string name="textview">TextView</string>
+    <string name="name_s_report">name\'s Report</string>
+    <string name="you_have_hyper_hypo_tension_condition_and_may_have_heart_disease_what_to_do">You have hyper/hypo-tension condition and may have heart disease What to do...</string>
+
+</resources>

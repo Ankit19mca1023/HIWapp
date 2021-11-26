@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".CheckUp">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/LinearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/Linearlayout2">
+
+                <TextView
+                    android:layout_width="183dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Height"
+                    android:textColor="#0B0A0A"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold" />
+
+                <EditText
+                    android:id="@+id/height"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-light"
+                    android:hint="Enter Your Height in cm"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:textColor="#0E0C0C"
+                    android:textColorHint="#473F3F"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:layout_width="183dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Age"
+                    android:textColor="#0B0A0A"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold" />
+
+                <EditText
+                    android:id="@+id/age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-light"
+                    android:hint="Enter Your Age"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:textColor="#0E0C0C"
+                    android:textColorHint="#473F3F"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Linearlayout2"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/linearLayout1">
+
+                <TextView
+                    android:layout_width="183dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Weight"
+                    android:textColor="#0B0A0A"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold" />
+
+                <EditText
+                    android:id="@+id/weight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-light"
+                    android:hint="Enter Your Weight in kg"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:textColor="#0E0C0C"
+                    android:textColorHint="#473F3F"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Linearlayout4"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/LinearLayout3">
+
+                <TextView
+                    android:layout_width="183dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Push-Up"
+                    android:textColor="#0B0A0A"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold" />
+
+                <EditText
+                    android:id="@+id/pushup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-light"
+                    android:hint="count in single rep"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:textColor="#0E0C0C"
+                    android:textColorHint="#473F3F"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/Linearlayout4">
+
+                <TextView
+                    android:layout_width="183dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="BP"
+                    android:textColor="#0B0A0A"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/downbp"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:ems="10"
+                        android:fontFamily="sans-serif-light"
+                        android:hint="80"
+                        android:inputType="textPersonName"
+                        android:textColor="#0E0C0C"
+                        android:textColorHint="#473F3F"
+                        android:textStyle="italic" />
+
+                    <EditText
+                        android:id="@+id/upbp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="72dp"
+                        android:ems="10"
+                        android:fontFamily="sans-serif-light"
+                        android:hint="120"
+                        android:inputType="textPersonName"
+                        android:textColor="#0E0C0C"
+                        android:textColorHint="#473F3F"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/LinearLayout5">
+
+                <TextView
+                    android:layout_width="183dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Smoke ?"
+                    android:textColor="#0B0A0A"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/smokeyes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="yesSmoke"
+                        android:text="yes"
+                        android:textColor="#000000"
+                        android:textColorLink="#000000" />
+
+                    <RadioButton
+                        android:id="@+id/smokeno"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:onClick="noSmoke"
+                        android:text="no"
+                        android:textColor="#000000"
+                        android:textColorLink="#000000" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout7"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/LinearLayout6">
+
+                <TextView
+                    android:layout_width="183dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Drink ?"
+                    android:textColor="#0B0A0A"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/drinkyes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="yesDrink"
+                        android:text="yes"
+                        android:textColor="#000000"
+                        android:textColorLink="#000000" />
+
+                    <RadioButton
+                        android:id="@+id/drinkno"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="noDrink"
+                        android:text="no"
+                        android:textAlignment="gravity"
+                        android:textColor="#000000"
+                        android:textColorLink="#000000" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Linearlayout8"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/LinearLayout7">
+
+                <ProgressBar
+                    android:id="@+id/CheckprogressBar"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/submitdetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="record"
+                    android:text="Submit" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout9"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/Linearlayout8">
+
+                <Button
+                    android:id="@+id/clearall"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="clear"
+                    android:text="Clear" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="310dp"
+        android:layout_height="226dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:foregroundGravity="center">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="130dp"
+                android:layout_height="142dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/imageView3"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/heightimg" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="130dp"
+                android:layout_height="142dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/imageView"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/weightimg" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="48dp"
+                android:layout_height="41dp"
+                app:layout_constraintBottom_toTopOf="@+id/imageView"
+                app:layout_constraintEnd_toStartOf="@+id/imageView8"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/imageView7"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/handswithheart" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="48dp"
+                android:layout_height="41dp"
+                app:layout_constraintBottom_toTopOf="@+id/imageView"
+                app:layout_constraintEnd_toStartOf="@+id/imageView6"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/beatheart" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="48dp"
+                android:layout_height="41dp"
+                app:layout_constraintBottom_toTopOf="@+id/imageView3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/imageView6"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/hearthand" />
+            " />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

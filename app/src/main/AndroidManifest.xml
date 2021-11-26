@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hiwApp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HIW"
+        android:icon="@mipmap/ic_launcher">
+
+        <activity
+            android:name=".JokeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ReportRecord"
+            android:exported="true"
+            android:label="Report"
+            android:parentActivityName=".CheckUp" />
+        <activity
+            android:name=".CheckUp"
+            android:exported="true"
+            android:label="fill all the fields"
+            android:parentActivityName=".Log_in"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Sign_up"
+            android:exported="true"
+            android:label="Sign up"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Log_in"
+            android:exported="true"
+            android:label="Health is Wealth"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".FirstActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+        </activity>
+    </application>
+
+</manifest>

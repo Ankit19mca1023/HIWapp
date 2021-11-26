@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "525170522187",
+    "project_id": "hiwapp-5f65b",
+    "storage_bucket": "hiwapp-5f65b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525170522187:android:dba5a74b3c7ba8171435ce",
+        "android_client_info": {
+          "package_name": "com.example.hiw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525170522187-nfvh97q6fe0mrsjn2m3s5221cso71jkm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9ZHwMhyDyEtZqBx7-5RCu79Rz5O6x5SI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525170522187-nfvh97q6fe0mrsjn2m3s5221cso71jkm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
